@@ -1,0 +1,33 @@
+---
+layout: post
+title: Talk to ALL THE THINGS!
+category: posts
+---
+
+I attended PyCon US 2013 this year to present a poster on [We Have, We Need][whwn], our student-led disaster recovery project. It was amazing not just for the technical talks and job opportunities, but because of the awesome community behind Python. And the stickers. But mostly the community.
+
+Every day at PyCon was filled with lessons, and Day 1 kicked-off with a doozy. It was Friday, the first day of talks, and I had driven up the night before with [Jon Wong][jw], [Lewis Chung][lc], and [Zack Grannan][zg], to Cupertino to crash on [Jenner La Fave][jl]'s renowned floor. Our merry band of hackers arrived in Santa Clara early Friday morning, hungry for our first day of PyCon. After claiming our loot bags and scarfing down some grub, we headed to the keynote.
+
+![PyCon](http://ieng6.ucsd.edu/~wvetter/pycon1.png)
+
+We arrived early enoug to grab some seats near the front. I was near the aisle with one empty seat to my left and the rest of the gang on my right. As the clock approached 09:00, the Grand Ballroom started to fill up. I was secretly hoping the seat next to me would remain empty so I wouldn't have to make awkward smalltalk with a stranger. But alas, eventually a man came by and asked if the seat was taken. I said no and he sat down next to me.
+
+I noticed he had an accent of some kind and was wearing an EFF t-shirt. I didn't really feel comfortable striking up a conversation with him so I sat there and fiddled with my phone. Eventually the conference organizer, Jesse Noller, got on stage and gave the welcome speech. Once Jesse finished they started making some last minute preparations for the keynote. While they were setting up, EFF guy got up and walked away.  
+
+*"Why would you leave before the keynote?"* I thought.   
+
+EFF guy then preceded to get up on stage **and give the keynote.**  
+
+What a fool I had been not to talk to him. Needless to say, I muttered every swear word in my lexicon under my breath. "EFF guy" was Eben Upton, cofounder of the RaspberryPi Foundation and he gave a great speech about the current challenges of computer science outreach and his journey building RaspberryPi.
+
+As I left the Grand Ballroom, I resolved to at least say "Hello" to everyone I sat next to. For the rest of the conference, I would talk to anyone who would listen. (And it paid off.)
+
+My advice to anyone like me:  
+**Strike up a conversation with someone, you'll be surprised who you meet.**
+
+
+[whwn]: http://whwn.org
+[jw]: http://jnwng.com
+[jl]: http://jfave.com
+[zg]: https://github.com/zgrannan/
+[lc]: http://lewisf.com
