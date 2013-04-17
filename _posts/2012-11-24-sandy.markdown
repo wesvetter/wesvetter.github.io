@@ -1,0 +1,86 @@
+---
+layout: post
+title: Hurricane Sandy Response
+category: posts
+---
+
+### Part 1: Seizing Opportunity
+It was early morning on Election Day[[1](#footer)] when we got the green light. Comme d'habitude, I was sitting at the coffee table with my toast and coffee. I was reading an article in my Twitter feed about one founder's startup experience[[2][dogster]]. Looking back at it today, 18 days later, and the first paragraph stands out a lot more:
+
+*"This just won’t work in paragraph form as nothing in a startup happens in a linear manner. It’s all happening at once, always and the realization of any learnings come to you in no particular time frame after that."*
+
+Most advice is stuff you'll hear a thousand times and disregard, until the day it bites you in the ass. And _then_ you get it. Like understanding the blood, sweat and tears that go into a startup. I still don't know what its really like, but I've got a small taste of it. Its a potent mix of hope, fear, and adrenaline; an acquired taste for sure.
+
+What happened in the last two weeks was a flurry of development, progress, and failure that I've never experienced before. This is my attempt at making sense of it. 
+
+So there I was, munching on wheat toast with strawberry jam and reading about startups when I got a text message. It was from our client and it read "They want the site in New York". I could feel my heartbeat quicken. 
+
+"Now?" I responded. "Is this for Sandy?"
+
+The answer to both was yes.
+
+Unfortunately the site wasn't ready, it wouldn't be for another month. "But this was it" I thought, our chance to release. That was our goal for the quarter, to release (in Haiti). Actually, if I'm honest, that was our goal for the last three quarters. But here it was, an honest-to-god potential customer.
+
+It was like fate. I was reading about startups, wondering about the future of our project, when opportunity came a knockin'. We had no choice but to seize it. I called our team lead, and told him the news. 
+
+This story doesn't have a happy ending (yet). But I've worked more in the past two weeks than ever before. And with the best teammates I've ever known. For that alone, I'm grateful.
+
+
+### Part 2: In the Trenches
+And so began the longest sustained burst of activity I've ever been a part of. We sent out an email to the team asking them to rally. We explained the situation and started to figure out what needed to be done.
+
+A lot of the functionality was currently in pieces on the floor. We were in the process of redoing much of the UI and in the course of that had taken things apart. All those pieces needed to be quickly stitched back together if we wanted to release. We also needed completely new pieces of functionality to be built. So we set about trying to figure out the minimum amount of product we needed to release. If there's a lesson about software engineering here, **its always keeping the product shippable.** We thought we could have the site ready in a few days, so we spent all of Tuesday and Wednesday hammering away on it.
+
+Thursday morning I got a frantic text message from our client saying the site was broken. "Well, of course it was, it's not done yet" I thought. So I got her on the phone; turns out she was trying to demo the site to people, including someone from the Department of Homeland Security. Oh shit. Another day of furious development ensued. That day we skipped all our classes and worked from about 9am until midnight. 
+
+Veterans day weekend was upon us, and our usual 4-hour code sprint turned into a three-day coding marathon. We had blown off all our other classes and I wasn't getting much sleep. I think my immune system started to shut down and by Tuesday I was sick.
+
+We battled many demons over the first week. In particular, the queries for automatically matching "haves" to "needs" proved to be a royal pain in the ass. Creating a system to automatically find your location based on text input (like an address or Burrough name) also proved to be an enormous time sink. Having to cater to non-tech-savy users was the source of many problems.
+
+After that weekend, development slowed a bit. Not because we wanted it to, but because we couldn't afford to work on it full-time anymore. I couldn't fail my other classes over this, not for two units. So we kept working on it when we could. We froze development on most new features and we tried to clean up the existing pages. We almost finished a page that allows the public to make donations. We got a decent logo, __finally__.
+
+I've always thought of myself as lazy. I'm beginning to think its less a matter of laziness, and more a matter of motivation. Of course I've always kinda knew this, it's just another one of those lessons you don't really get until you find something that __truly__ motives you.
+
+
+### Part 3: Humans, Muggles
+Dealing with humans was one of the biggest challenges we had. We've hit a point where the site is stable, but stalled on the human-front. The site needs users before it can be of any use. This requires two things, 1. having more than one user, and 2. users can't post only "needs".
+
+Finding users is difficult for several reasons. Geographically, we are about as far removed as you can get in from them in the contiguous United States. We're stuck in Southern California while our users are in New York. This means all our communication happens through phone/SMS or email. There's a time difference, which becomes very significant when I'm not done with class until the afternoon. 
+
+There's also the matter of them being in a disaster zone, which tends to make them __pretty freaking busy__. The homes of their friends and families have been destroyed or left without heat & power, they don't have time to get familiar with yet-another new website that promises to help them.
+
+So we tried populating the site with data ourselves. That way, even if we only had one user, they could get matches. This meant people on the team had to scour forums and facebook pages looking for "haves" to find. This was difficult, and not very rewarding.
+
+Even when the site was populated with data we were able to collect, we found that people generally only posted "needs" online. We had a database full of "needs", and no "haves" so there was nothing to match.
+
+The other main issue was the usability of the site. The front-end was pretty bare-boned. There wasn't much text explaining how the site was supposed to be used. We were expecting to train users over the holiday break. Now people needed to be dropped in and able to quickly learn the site.
+
+Certain aspects of locations and mapping weren't very intuitive. For example, you needed to know your coordinates to enter in your location. Not intuitive to your average user in a hurry. So we added a feature that determined coordinates based on text input (like an address or landmark) but that took a lot of work, and we ended up having to refactor all of the mapping and locations code. You could also set your location by moving the pin around on the map, except there's no text explaining that feature so you wouldn't know about it unless you dragged the pin around. *We* knew it existed, but only because we'd spent the past 2 hours building it. **As a developer, trying to view the project through the virgin eyes of a user is not an easy task.**
+
+There's also the matter of working with a lot of people who simply aren't tech-savy. There was one group who was already trying to manage a database of "haves" and "needs". Our client reached out to them asking for a CSV or spreadsheet of their data. Their response was that, as far as they knew, copy/paste was the best way to get data out of it.[[3([#footer)] Some nights I still wake up in a cold-sweat shouting "YOUR DATABASE IS A SPREADSHEET!!!"
+
+
+### Part 4: New York vs. Haiti
+One of the biggest challenges we have to grapple with is the fact that our original use-case (Haiti) is very different from the situation in New York. One of the key things that is different from Haiti is the involvement of the public.
+
+Originally we were planning to release this among a small group of doctors who could use it to communicate when they were in rural Haiti. All of the "haves" (typically antibiotics, medicine, or medical supplies) would be coming from these doctors. In New York, the "needs" are much more basic (trash bags, clothes, diapers, etc.) so the public is actually able to contribute. Our site wasn't built to handle those types of requests, so we were really caught off guard when all of a sudden we needed a way for people to be able to create "haves" without making an account. This also breaks our messaging functionality in the sense that we weren't set up to handle messaging to unregistered users.
+
+The second big difference is the use of volunteers. There wasn't much need for volunteers in the Haiti use-case since the general public can't just volunteer to be a doctor. In New York though, generic volunteers were critical and most tasks didn't require specific technical skills. Volunteers were needed to deliver supplies, sort donations, and clean up debris so there was a huge call for unskilled labor. Ideally, volunteers should be processed differently from items because they have different properties. Volunteers can move locations easily, volunteers have skill sets (like medical training), they have contact information, and other attributes that warrant building separate models for them. At the moment, the only way we can handle volunteers is by treating them like items, which severely constrains how we interact with volunteers.
+
+Another big difference is in the availability of internet. Access to internet is much more limited in Haiti, so we had spent a lot of time prior to this quarter planning SMS functionality. In New York, access to internet is much more common so its less important to have features like SMS functionality and more important to have features like user groups. 
+
+Working on the New York side of things has been an eye-opening experience, and presents a very different path which the project could take. In the coming months we will have to decide which of these paths we want to take.
+
+### <a id="footer"></a>Part 5: What Next?
+The form for submitting public items needs to be hooked up. Its difficult to sell to one or two users without being able to at least let them redirect traffic to us.
+
+There's also talk of a media push. I'm not sure where my head is on this. I'd like to have media attention, but I'd rather have it when we can definitively say the product is useful. Which we can't at this point, and may not be able to if things don't change significantly. But if we had some media, you could point people in NY towards the public page, and then it might be useful.
+
+Everything needs polish and testing. 
+
+---
+
+[1] 6 November 2012  
+[2] I ended up writing a scraper in Ruby that was able to pull off a good chunk of data and process it. The client ended up mentioning that to the database owners, and they asked for a copy of the scraper. They wanted it so they could get data **out of their own database**. 
+
+[dogster]: https://medium.com/what-i-learned-building/34d7fb757317
