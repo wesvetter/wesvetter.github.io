@@ -1,0 +1,49 @@
+---
+layout: post
+title: Something Ambiguous
+category: posts
+---
+
+The late Dr. Allan Snavely taught my upper division processor design class. He was fun, reasonable, intelligent, and genuinely cared about our learning. He dressed up like a Spartan on Halloween. He had extra course evaluations half-way through so he could start improving sooner. He welcomed questions and built participation into his lectures. Perhaps my favorite thing about him though was his tests...
+
+## Allan would be ambiguous
+in many of his questions. It was an intentional ambiguity though, not mere carelessness. The real world is ambiguous, and you often have to spend countless hours trying to figure out what problem you're actually trying to solve and why. He would preface each exam or assignment by saying "state your assumptions." What assumptions did you have to make to solve the problem?
+
+*Were you optimizing for speed or power? Was your register file reading at the beginning or end of the clock cycle? How big was your cache? Did you have a pipelined processor? How often were you reading or writing to memory?*
+
+As long as you stated the specific assumptions you were making, and those assumptions were reasonable, you had the opportunity to get full credit. There was rarely a single best answer because it always depended on your assumptions. He would give open-ended questions and then let the students argue about the answer, revealing assumptions that they had made in reaching their conclusions.
+
+The following question appeared on the midterm:
+
+*Program X executes 1.1M dynamic instructions. Of these, 30% are loads and stores. Of the loads and stores, 40% are stores. What percentage of **total memory references** are loads?*
+
+Basically everyone read this as "What percentage of total instructions are loads?"  
+Basically everyone thought "Uhm, 60% of 30% = 18%, obviously."  
+Basically everyone got 0 points for that.  
+
+The question is in fact "what percentage of memory references are loads?", which is quite different. When you load each instruction, you are making a memory reference; the instruction does not have to be an actual load instruction (like lw). In order to run "add $1, $2, $3" you still have to reference memory to get that instruction. Therefore you have a memory reference with each instruction, and an "extra" reference with actual load/store instructions. So while most people wrote 18%, the correct answer is [about 90%](#footer1).
+
+The only person who did get credit for writing "60% of 30%" was Blake, my lab parter, because he wrote "assuming the program has separate data and instruction memory". He got 10 points with the same answer that got everyone else 0 points, but everyone made an assumption about the problem. We all made that assumption because our lab assignments assume the program is stored in a ROM and doesn't really need to be loaded. Thinking that the test was the same as the lab was not the problem, it was *assuming* that the test was the same as the lab. Many complained but I thought it was a good lesson. In the real world, assumptions kill projects; better to get burned on a test than on a job that matters.
+
+##A few days later... 
+I was sitting in lecture when there was a knock on the door. A man wearing a green baseball hat stuck his head in the door and said "Delivery". Allan stopped lecturing and said "Ah, bring it in". He walked to the man, signed a receipt, and the man brought in 5 pizzas and a case of sodas. A student asked if it was for us. Allan casually responded that it was. Another asked why he was giving us pizza.
+
+"On the course evaluations someone wrote '**We should get free pizza**'. And you guys did well on the midterm so I figured '*why not?*'"
+
+Not only did he demonstrate that he was a nice guy, but more importantly he showed that he was listening to the things we said. Even the stupid things.
+
+
+---
+<a id="footer1"></a>
+Explanation: 18% is only true if you assume that the program itself doesn't need to be loaded, which is kind of a lame assumption to make. Otherwise, you need to load all the instructions of the program, which means most of the memory references are loading the instructions themselves.
+
+Percentage of memory references that are loads are thus:
+
+= (number of loading references) / (total memory references)
+
+= ( 1 loading reference per instruction + 1 extra per lw instruction) /  
+(1 loading reference per instruction + 1 extra per lw or sw instruction)
+
+= (1.1 + 1.1(0.3)(0.6)) / (1.1 + 1.1(0.3)) 
+
+= ~90% of references are loads 

@@ -8,4 +8,6 @@ For French class we had to write a short paragraph completing the sentence "A go
 
 After we had finished discussing the qualities of a good student, the instructor gave a follow up question: "a well-raised child is one who ______ ?" Again, we were sent to the chalkboard to transcribe our thoughts. *"Poli"* was the word on everyones' lips. **"Polite"**, good kids were polite. Again, the class seemed to confuse "well-raised" with "well-behaved". Not a single person mentioned being imaginative or creative or loving.
 
-Maybe I have a different perspective because I am about to graduate and most of my classmates are freshmen and sophomores. I am hoping that's it.
+Maybe I have a different perspective because I am about to graduate and most of my classmates are freshmen and sophomores.
+
+I am hoping that's it.
