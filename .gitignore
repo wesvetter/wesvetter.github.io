@@ -1,1 +1,6 @@
+# the static site is generated in /_site,
+# but in this case we don't want to push that to the repo
 _site
+
+# ignore vim files
+*.swp
