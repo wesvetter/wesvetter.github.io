@@ -11,7 +11,7 @@ task :dev do
   system('jekyll --server --auto')
 end
 
-# Note: all my posts are in the "posts" category, but I made add additional 
+# Note: all my posts are in the "posts" category, but I may add additional 
 # categories in the future. Might add "how-to" as a category, but I 
 # could also just add a "how-to" tag to posts.
 desc "Given a title as an argument, create a new post file"

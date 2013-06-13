@@ -8,7 +8,7 @@ I attended PyCon US 2013 this year to present a poster on [We Have, We Need][whw
 
 ---
 
-Every day at PyCon was filled with lessons, and Day 1 kicked-off with a doozy. It was Friday, the first day of talks, and I had driven up the night before with [Jon Wong][jw], [Lewis Chung][lc], and [Zack Grannan][zg], to Cupertino to crash on [Jenner La Fave][jl]'s renowned floor. Our merry band of hackers arrived in Santa Clara early Friday morning, hungry for our first day of PyCon. After claiming our loot bags and scarfing down some grub, we headed to the keynote.
+Every day at PyCon was filled with lessons, and Day 1 kicked-off with a doozy. It was Friday, the first day of talks, and I had driven up to Cupertino the night before with [Jon Wong][jw], [Lewis Chung][lc], and [Zack Grannan][zg], to crash on [Jenner La Fave][jl]'s renowned floor. Our merry band of hackers arrived in Santa Clara early Friday morning, hungry for our first day of PyCon. After claiming our loot bags and scarfing down some grub, we headed to the keynote.
 
 ![PyCon](http://ieng6.ucsd.edu/~wvetter/pycon1.png)
 
