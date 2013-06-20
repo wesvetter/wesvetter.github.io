@@ -2,6 +2,10 @@
 # but I don't want to push that to the repo
 _site
 
+# don't want to be pushing images to the repo,
+# I can host them somewhere else.
+imgs
+
 # I like to keep draft posts here
 _drafts
 
