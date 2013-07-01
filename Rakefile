@@ -5,6 +5,11 @@ task :hey_dummy do
   puts 'Try running "rake --describe" for more options.'
 end
 
+desc 'Delete generated _site files'
+task :clean do
+  system 'rm -rf _site'
+end
+
 # "--auto" regenerates the site automatically when files are changed
 desc 'Runs Jekyll server locally on port 4000'
 task :dev do
