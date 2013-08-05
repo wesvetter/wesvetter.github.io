@@ -6,7 +6,7 @@ rdiscount:
   extensions: [smart]
 
 name: Wes Vetter
-url: http://wesvetter.github.io
+url: http://wesvetter.com
 description: this is my blog where I blog things.
 twitter: wesvetter
 github: wesvetter
