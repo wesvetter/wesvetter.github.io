@@ -1,7 +1,7 @@
 ---
 layout: post
 category: posts
-title: DIY - Fridge Magnets
+title: diy - fridge magnets
 date: 2013-05-04 18:52:32
 ---
 

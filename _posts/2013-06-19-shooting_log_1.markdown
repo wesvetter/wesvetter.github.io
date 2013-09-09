@@ -1,7 +1,7 @@
 ---
 layout: post
-category: posts
-title: Shooting Log - June 2013
+category: misc
+title: Shooting log - June 2013
 date: 2013-06-19 19:05:50
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: posts
-title: DIY -- Two too simple projects
+title: diy -- two too simple projects
 date: 2013-08-11 16:36:06
 ---
 

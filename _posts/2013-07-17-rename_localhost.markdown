@@ -1,7 +1,7 @@
 ---
 layout: post
 category: posts
-title: Rename localhost
+title: rename localhost
 date: 2013-07-17 17:45:00
 ---
 

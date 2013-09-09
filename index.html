@@ -1,13 +1,15 @@
 ---
-layout: layout
+layout: default
 title: "Posts"
 ---
 
 <section class="content">
-  <ul class="listing">
+  <ul class="list-unstyled">
     {% for post in site.posts %}
     <li>
-      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+      <h3 class="text-center post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="text-center post-date">{{ post.date | date: "%B %e, %Y" }}</p> 
+      <br/>
     </li>
     {% endfor %}
   </ul>

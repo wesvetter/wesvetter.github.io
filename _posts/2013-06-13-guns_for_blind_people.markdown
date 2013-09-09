@@ -1,7 +1,7 @@
 ---
 layout: post
 category: posts
-title: Guns for Blind People
+title: guns for blind people
 date: 2013-06-13 17:41:40
 ---
 

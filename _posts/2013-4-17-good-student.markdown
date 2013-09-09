@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A good student is one who ?
-category: posts
+category: life
 ---
 
 For French class we had to write a short paragraph completing the sentence "A good student is one who ______". The next day, we started class by writing our responses on the chalkboard. When I took my seat, I started to read what my classmates had wrote. "Takes good notes", "gets good grades", "goes to office hours", and "always goes to class" were the most popular responses. I was shocked that nobody had written anything similar to me. My first sentence was *"Il adore apprendre"*, **"he loves to learn."**

@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Talk to ALL THE THINGS!
-category: posts
+title: Talk to all the things!
+category: code 
+date: 2013-03-18 00:00:00
 ---
 
 I attended PyCon US 2013 this year to present a poster on [We Have, We Need][whwn], our student-led disaster recovery project. It was amazing not just for the technical talks and job opportunities, but because of the awesome community behind Python. And the stickers. But mostly the community.
