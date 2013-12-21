@@ -13,21 +13,32 @@
 { font-family: 'Arizonia', cursive; }
 */
 
-/* SIDEBAR
+
+/* GLOBAL
 -------------------------------------------------- */
-//this should really be renamed
-.header {
-  h2.estate { font-family: 'Alegreya SC', serif; }
-  h3.of { font-family: 'Alegreya SC', serif; }
-  h1.name { font-family: 'Rouge Script', cursive; }
+// make images responsive
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.sidebar {
-  padding-left: 20px;
+$screen-min: 1200px;
 
-  .avatar {
-    margin-left: 2px;
-    border-radius: 5px;
+/* SIDEBAR
+-------------------------------------------------- */
+.sidebar {
+
+  @media screen and (min-width: $screen-min) { position: fixed; }
+
+  text-align: center;
+
+  .estate { font-family: 'Alegreya SC', serif; line-height: 1.5em; }
+  .of { font-family: 'Alegreya SC', serif; font-size: 2em; }
+  .name {
+    font-size: 4em;
+    font-style: italic;
+    font-family: 'Rouge Script', cursive;
+    line-height: 1.5em;
   }
 
   a { color: black; }
@@ -37,13 +48,13 @@
   }
 
   i {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1pc;
+    padding-right: 1pc;
   }
 
   li {
     font-family: 'Alegreya SC', serif;
-    font-size: 18px;
+    font-size: 1.5em;
   }
 }
 

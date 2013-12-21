@@ -12,31 +12,41 @@
 { font-family: 'Crimson Text', serif; }
 { font-family: 'Arizonia', cursive; }
 */
+/* GLOBAL
+-------------------------------------------------- */
+img {
+  max-width: 100%;
+  height: auto; }
+
 /* SIDEBAR
 -------------------------------------------------- */
-.header h2.estate {
-  font-family: 'Alegreya SC', serif; }
-.header h3.of {
-  font-family: 'Alegreya SC', serif; }
-.header h1.name {
-  font-family: 'Rouge Script', cursive; }
-
 .sidebar {
-  padding-left: 20px; }
-  .sidebar .avatar {
-    margin-left: 2px;
-    border-radius: 5px; }
+  text-align: center; }
+  @media screen and (min-width: 1200px) {
+    .sidebar {
+      position: fixed; } }
+  .sidebar .estate {
+    font-family: 'Alegreya SC', serif;
+    line-height: 1.5em; }
+  .sidebar .of {
+    font-family: 'Alegreya SC', serif;
+    font-size: 2em; }
+  .sidebar .name {
+    font-size: 4em;
+    font-style: italic;
+    font-family: 'Rouge Script', cursive;
+    line-height: 1.5em; }
   .sidebar a {
     color: black; }
   .sidebar a:hover {
     color: grey;
     text-decoration: none; }
   .sidebar i {
-    padding-left: 10px;
-    padding-right: 10px; }
+    padding-left: 1pc;
+    padding-right: 1pc; }
   .sidebar li {
     font-family: 'Alegreya SC', serif;
-    font-size: 18px; }
+    font-size: 1.5em; }
 
 /* FOOTER
 -------------------------------------------------- */
