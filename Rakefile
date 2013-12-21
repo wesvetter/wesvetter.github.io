@@ -10,11 +10,21 @@ task :clean do
   system 'rm -rf _site'
 end
 
-# "--auto" regenerates the site automatically when files are changed
-desc 'Run the jekyll server on port 4000'
+desc 'Compile assets and start the jekyll server'
 task :dev do
-  system('jekyll serve --watch')
-  #system('scss --watch assets:stylesheets')
+  pids = [
+      spawn('jekyll serve --watch'),
+      spawn('scss --watch assets/css:stylesheets'),
+    ]
+  
+  trap "INT" do
+    Process.kill "INT", *pids
+    exit 1
+  end
+
+  loop do
+    sleep 1
+  end
 end
 
 # TODO: I should be able to not type the post date, i.e. not have 
