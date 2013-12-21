@@ -14,6 +14,7 @@ end
 desc 'Run the jekyll server on port 4000'
 task :dev do
   system('jekyll serve --watch')
+  #system('scss --watch assets:stylesheets')
 end
 
 # TODO: I should be able to not type the post date, i.e. not have 
