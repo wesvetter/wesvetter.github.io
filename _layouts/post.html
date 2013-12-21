@@ -2,15 +2,16 @@
 layout: default
 ---
 
-<section class="post">
-  <h1 class="title">
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </h1>
+<article class="post">
 
-  <h2 class="date">{{ page.date | date: "%B %e, %Y" }}</h2>
+    <h1 class="title">
+      <a href="{{ page.url }}">{{ page.title }}</a>
+    </h1>
 
-  <span class="body"> {{ content }} </span>
+    <h2 class="date">{{ page.date | date: "%B %e, %Y" }}</h2>
 
-  {% include share.html %}
+    <span class="post-body"> {{ content }} </span>
 
-</section>
+    {% include share.html %}
+
+</article>
