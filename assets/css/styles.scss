@@ -80,6 +80,10 @@ p.post-date { font-family: 'Crimson Text', serif; }
 /* POST PAGE
 -------------------------------------------------- */
 .post {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+  }
+
   .title {
     font-family: 'IM Fell French Canon', serif;
     color: #303030;
@@ -98,11 +102,10 @@ p.post-date { font-family: 'Crimson Text', serif; }
     font-size: 18px;
     line-height: 1.7;
     margin-bottom: 20px;
+
+    a { text-decoration: underline; }
   }
 
-  h2, h3, h4, h5, h6 {
-    font-family: 'EB Garamond', serif;
-  }
 }
 
 

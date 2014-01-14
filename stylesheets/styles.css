@@ -69,6 +69,8 @@ p.post-date {
 
 /* POST PAGE
 -------------------------------------------------- */
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+  font-family: 'EB Garamond', serif; }
 .post .title {
   font-family: 'IM Fell French Canon', serif;
   color: #303030;
@@ -83,8 +85,8 @@ p.post-date {
   font-size: 18px;
   line-height: 1.7;
   margin-bottom: 20px; }
-.post h2, .post h3, .post h4, .post h5, .post h6 {
-  font-family: 'EB Garamond', serif; }
+  .post .post-body p a {
+    text-decoration: underline; }
 
 /* SOCIAL MEDIA WIDGET
 -------------------------------------------------- */
