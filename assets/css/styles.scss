@@ -1,17 +1,11 @@
-/* INCLUDED FONTS
---------------------------------------------------
-{ font-family: 'Rouge Script', cursive; }
-{ font-family: 'Petit Formal Script', cursive; }
-{ font-family: 'IM Fell French Canon', serif; }
-{ font-family: 'Ovo', serif; }
-{ font-family: 'EB Garamond', serif; }
-{ font-family: 'Alegreya SC', serif; }
-{ font-family: 'IM Fell Great Primer SC', serif; }
-{ font-family: 'Gentium Book Basic', serif; }
-{ font-family: 'Montaga', serif; }
-{ font-family: 'Crimson Text', serif; }
-{ font-family: 'Arizonia', cursive; }
-*/
+---
+---
+
+/* VARIABLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$screen-min: 1200px;
+$cursive-font: cursive;
+$serif-font: 'Garamond', serif;
 
 
 /* GLOBAL
@@ -22,7 +16,19 @@ img {
   height: auto;
 }
 
-$screen-min: 1200px;
+
+/* TYPOGRAPHY
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+// Make everything a serif font by default.
+h1, h2, h3, h4, h5, h6, p, li {
+  font-family: $serif-font;
+}
+
+// Override the Bootstrap default font-size.
+body {
+  font-size: 18px;
+}
+
 
 /* SIDEBAR
 -------------------------------------------------- */
@@ -30,21 +36,19 @@ $screen-min: 1200px;
 
   @media screen and (min-width: $screen-min) { position: fixed; }
 
-  text-align: center;
 
-  .estate { font-family: 'Alegreya SC', serif; line-height: 1.5em; }
-  .of { font-family: 'Alegreya SC', serif; font-size: 2em; }
-  .name {
-    font-size: 4em;
-    font-style: italic;
-    font-family: 'Rouge Script', cursive;
+  .heading {
     line-height: 1.5em;
+    text-align: center;
   }
 
-  a { color: black; }
-  a:hover {
+  a {
+    color: black;
+
+    &:hover {
       color: grey;
       text-decoration: none;
+    }
   }
 
   i {
@@ -53,52 +57,37 @@ $screen-min: 1200px;
   }
 
   li {
-    font-family: 'Alegreya SC', serif;
     font-size: 1.5em;
   }
 }
 
-/* FOOTER
--------------------------------------------------- */
-.footer p { font-family: 'IM Fell Great Primer SC', serif; }
+
 
 /* INDEX PAGE
 -------------------------------------------------- */
-.main-listing a {
-  color: black;
+.post-title {
+  font-family: $cursive-font;
 
-  .main-listing a:hover {
-    color: grey;
-    text-decoration: none;
-  }
+  a { color: #333; }
+  a:hover { color: gray; }
 }
-
-h3.post-title { font-family: 'Petit Formal Script', cursive; }
-p.post-date { font-family: 'Crimson Text', serif; }
 
 
 /* POST PAGE
 -------------------------------------------------- */
 .post {
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'EB Garamond', serif;
-  }
-
   .title {
-    font-family: 'IM Fell French Canon', serif;
     color: #303030;
     margin: 20px 0 5px 0;
   }
 
   .date {
-    font-family: 'Crimson Text', serif;
     color: #999;
     font-size: 18px;
     margin: 0 0 10px 3px;
   }
 
   .post-body p {
-    font-family: 'EB Garamond', serif;
     font-size: 18px;
     line-height: 1.7;
     margin-bottom: 20px;
@@ -111,20 +100,17 @@ p.post-date { font-family: 'Crimson Text', serif; }
 
 /* SOCIAL MEDIA WIDGET
 -------------------------------------------------- */
-.share h3 { font-family: 'Alegreya SC', serif; }
 .share img { margin-right: 10px; }
 
 
 /* ABOUT PAGE
 -------------------------------------------------- */
 .about {
-    h1 {
-    font-family: 'Alegreya SC', serif;
+  h1 {
     margin-bottom: 25px 0 25px 0;
   }
 
   p {
-    font-family: 'EB Garamond', serif;
     font-size: 18px;
     line-height: 1.3;
     margin-bottom: 20px;
@@ -137,17 +123,15 @@ p.post-date { font-family: 'Crimson Text', serif; }
 -------------------------------------------------- */
 .error {
   h1 {
-  font-family: 'Rouge Script', cursive;
-  font-size: 50px;
+    font-size: 50px;
   }
 
   p {
-    font-family: 'IM Fell French Canon', serif;
     font-size: 18px;
   }
 
   .signature {
-    font-family: 'Arizonia', cursive;
+    font-family: $cursive-font;
     font-size: 30px;
   }
 
