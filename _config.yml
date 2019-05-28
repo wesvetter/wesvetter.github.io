@@ -4,11 +4,6 @@ description: Wes Vetter's personal web log.
 url: http://wesvetter.com
 permalink: /:categories/:title
 
-pygments: true
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
-
 twitter: wesvetter
 github: wesvetter
 gravatar_url: http://www.gravatar.com/avatar/dfc9bad6f80244b7b64e630ee0bd6e8d?s=200
