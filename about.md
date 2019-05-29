@@ -1,10 +1,6 @@
 ---
 layout: default
 title: About
-sitemap:
-  priority: 0.7
-  changefreq: monthly
-  lastmod: 2013-08-04 00:00:00
 ---
 
 # RENAISSANCE MAN. CAT VIDEO CONNOISSEUR.
