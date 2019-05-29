@@ -25,7 +25,8 @@ The question is in fact "what percentage of memory references are loads?", which
 
 The only person who did get credit for writing "60% of 30%" was Blake, my lab parter, because he wrote "assuming the program has separate data and instruction memory". He got 10 points with the same answer that got everyone else 0 points, but everyone made an assumption about the problem. We all made that assumption because our lab assignments assume the program is stored in a ROM and doesn't really need to be loaded. Thinking that the test was the same as the lab was not the problem, it was *assuming* that the test was the same as the lab. Many complained but I thought it was a good lesson. In the real world, assumptions kill projects; better to get burned on a test than on a job that matters.
 
-##A few days later... 
+## A few days later...
+
 I was sitting in lecture when there was a knock on the door. A man wearing a green baseball hat stuck his head in the door and said "Delivery". Allan stopped lecturing and said "Ah, bring it in". He walked to the man, signed a receipt, and the man brought in 5 pizzas and a case of sodas. A student asked if it was for us. Allan casually responded that it was. Another asked why he was giving us pizza.
 
 "On the course evaluations someone wrote '**We should get free pizza**'. And you guys did well on the midterm so I figured '*why not?*'"
