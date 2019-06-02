@@ -17,8 +17,8 @@ BackboneJS/MarionetteJS with a Python/Django backend.
 
 ## Phantom - macOS Ultrasound App
 
-The Phantom macOS app, which I did the design & branding for. The first image is
-[Morrison's Pouch][morisons-pouch-wiki], the second is [crown-rump
+The Phantom macOS app, for which I created the design & branding. The first
+image is [Morrison's Pouch][morisons-pouch-wiki], the second is [crown-rump
 length][crown-rump-wiki].
 
 ![Phantom - Morrison's Pouch](https://wesvetter-www.s3-us-west-1.amazonaws.com/phantom-morrisons-pouch.png)
@@ -26,7 +26,7 @@ length][crown-rump-wiki].
 
 ![Phantom @ The Marine Mammal Center](https://wesvetter-www.s3-us-west-1.amazonaws.com/phantom-seal.jpg)
 
-Testing the app on seals & sea lions at The Marine Mammal Center.
+Testing the app on seals & sea lions at The Marine Mammal Center in Marin, CA.
 
 ![Phantom home page](https://wesvetter-www.s3-us-west-1.amazonaws.com/phantom-www-home.png)
 ![Phantom home page](https://wesvetter-www.s3-us-west-1.amazonaws.com/phantom-www-downloads.png)
@@ -49,7 +49,7 @@ you need to jot any other details down.
 
 Excerpt from our hiring trial contract. Rather than use ineffective whiteboard
 interviews, we ask candidates to do small trial projects (for actual stuff we
-need) **and pay them!**. I also personally responded to every application, even
+need) **and pay them!** I also personally responded to every application, even
 if it was a rejection, because we know how much it sucks to have an application
 go into the void, never to be seen again.
 
@@ -65,7 +65,7 @@ I've written or edited multiple $100K+ contracts/statement-of-work documents.
 
 ![Teleomed homepage](https://wesvetter-www.s3-us-west-1.amazonaws.com/biz-www-home.png)
 
-I redesigned the existing company website to modern styles to be mobile-friendly.
+I redesigned the existing company website using modern styles to be mobile-friendly.
 
 ## UCSD - Global Snapshot
 

@@ -6,7 +6,7 @@ title: About
 # RENAISSANCE MAN. CAT VIDEO CONNOISSEUR.
 
 Wes Vetter graduated from the University of California, San Diego with a degree
-in computer science. He has been described as "Ron Swanson meets programmer".
+in computer science. He has been described as "Ron Swanson meets programmer."
 He can code an app, write a business plan, and build furniture.
 
 He works remotely on projects to improve health & wellness through technology,
@@ -15,11 +15,11 @@ generally for vulnerable populations.
 His personal interests include:
 
 *   [DIY projects][bar-cart]
-*   [woodworking][tri-shelves]
-*   [hunting][bha-www]
+*   [Woodworking][tri-shelves]
+*   [Hunting][bha-www]
 *   [NERT][nert-home]
 
-His always-out-of-date résumé can be found [here](/resume).
+His résumé can be found [here](/resume).
 
 You can connect with him on [Twitter][twitter] or by [email][gmail].
 
