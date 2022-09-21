@@ -1,3 +1,9 @@
+## Usage
+
+Use `rake dev` to start the development server.
+
+To deploy, simply push to the `master` branch.
+
 ## Acknowledgements
 
 This blog is based on **Left**, a [Jekyll][jekyll] theme by [Zach Holman][zach].
