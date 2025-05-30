@@ -7,6 +7,9 @@ title: Résumé
 
 ### Nurx, Thirty Madison 2019 - Present
 
+*   Helped rearchitect Nurx from a monolith to a microservices architecture,
+    helping to rebuild key features like payment holds.
+
 *   As a member of the team responsible for launching new service-lines, helped
     launch nine new services in just three years (2x the preceding three years).
 
@@ -14,11 +17,18 @@ title: Résumé
     mechanism, overnight shipping for emergency contraception, and a framework
     for computing patient risk metrics from surveys.
 
-*   Co-facilitator of the monthly internal "tech talks" program and occasional
-    speaker.
-
 *   Won Overall Grand Prize and Best Patient Category at the internal company
     hackathon with a redesign of the patient-facing app.
+
+*   Facilitated a monthly internal "tech talks" program for several years,
+    and gave multiple talks on topics like Git and Abstract Syntax Trees.
+
+*   Facilitated a formal mentorship program, helping pair engineers with
+    mentors and mentees, and providing structure for a successful mentorship
+    relationship.
+
+*   Ran a Postgres book club to help engineers improve their database
+    skills.
 
 *   Worked with the mobile team to help design and facilitate their new
     interview process. Regularly interviews engineering candidates and gives
@@ -26,8 +36,6 @@ title: Résumé
 
 *   Participates in the rotation of on-call engineers and regularly assists
     with incidents when needed.
-
-*   Actively mentors newer team members and helps with onboarding.
 
 *   Regularly facilitates cross-department communication with
     internal stakeholders, especially clinicians.
@@ -70,7 +78,7 @@ healthcare and wellness.
 ## Technical Skills
 
 *   Experience designing, building, and maintaining large consumer-facing
-    production systems.
+    production systems with hundreds of thousands of customers.
 *   Competent in various programming languages such TypeScript, Ruby, and Python.
 *   Writes high-quality technical proposals, bug reports, and documentation.
 *   Familiar with modern web development best practices and frameworks.
@@ -81,4 +89,4 @@ healthcare and wellness.
 *   Excellent ability to work with nontechnical stakeholders
 *   Experience working on business plans and other business-management documents
 *   Comfortable with project management and managing remote work
-*   7+ years of experience working on fully distributed teams
+*   10+ years of experience working on fully distributed teams
