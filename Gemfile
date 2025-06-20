@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
-gem 'jekyll'
+
+ruby '3.4.4'
+
+gem 'jekyll', '~> 4.3'
 gem 'liquid'
 gem 'rdiscount'
-gem 'sass'
-gem 'rb-fsevent', '~> 0.9'
+gem 'sass-embedded'
+gem 'rb-fsevent', '~> 0.11'
+gem 'webrick', '~> 1.8'
