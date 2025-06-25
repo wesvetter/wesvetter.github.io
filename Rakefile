@@ -43,8 +43,15 @@ end
 # categories in the future. Might add "how-to" as a category, but I 
 # could also just add a "how-to" tag to posts.
 desc "Given a title as an argument, create a new post file"
-task :post, :title do |le_task, args|
-  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{args.title.gsub(/\s/, '_').downcase}.markdown"
+task :scaffold, :title do |le_task, args|
+  title = args.title
+  if title.nil? || title.empty?
+    print "Enter post title: "
+    title = STDIN.gets.chomp
+    raise RuntimeError.new("Title cannot be empty!") if title.nil? || title.empty?
+  end
+  filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.gsub(/[\s\W]/, '-').downcase}.md"
+  Dir.mkdir("_drafts") unless Dir.exist?("_drafts")
   path = File.join("_drafts", filename)
   if File.exist? path; raise RuntimeError.new("Won't clobber #{path}"); end
   raise RuntimeError.new("Won't clobber #{path}") if File.exist?(path)
@@ -53,7 +60,7 @@ task :post, :title do |le_task, args|
 ---
 layout: post
 category: posts
-title: #{args.title}
+title: #{title}
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
 ---
 EOS
