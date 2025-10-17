@@ -14,7 +14,6 @@ desc 'Compile assets and start the jekyll server'
 task :dev do
   pids = [
       spawn('bundle exec jekyll serve --watch'),
-      spawn('bundle exec sass --watch assets/css:stylesheets'),
     ]
   
   trap "INT" do
