@@ -160,11 +160,11 @@ One of the first things I did was set up the pegboard to hold some of my office 
 
 I specifically did not want to put up pictures or other sources of distraction. Even things like physical books I rarely reference in practice, particularly because with technical books it’s generally faster now to search or ask AI and you can’t copy and paste from a physical book. Having a sit/stand desk also meant that I couldn’t really put any shelves on the desk side of the wall because anything up high would bump into the monitor if I wanted to stand.
 
-With that being said, there wasn’t that much that I needed to fit on the pegboard. On my original desk I kept an inbox and outbox that I would process once a week which was useful for managing bills and stuff like that. I also needed headphones (a couple different versions, in year and over a year) as well as some various cables for connecting phones and devices. IKEA sells a bunch of different components and I was able to configure my pegboard with two folders, one for inbox and one for outbox, and some clips for chords and headphones, and a few cups for stationary.
+With that being said, there wasn’t that much that I needed to fit on the pegboard. On my original desk I kept an inbox and outbox that I would process once a week which was useful for managing bills and stuff like that. I also needed headphones (a couple different versions, in ear and over a ear) as well as some various cables for connecting phones and devices. IKEA sells a bunch of different components and I was able to configure my pegboard with two folders, one for an inbox and an outbox, some clips for cords and headphones, and a few cups for stationary.
 
 Using a pegboard system allows me to keep it modular and adjust it if needed, though I haven’t really changed it from the original set up at all.
 
-I also purchased some dry erase markers that allow me to use the walls like a dry erase board. This is handy for short-lived to do lists or leaving off notes of what to pick up the next day.
+I also purchased a holder for dry erase markers that allows me to write on the walls. This is handy for short-lived to-do lists or leaving off notes of what to pick up the next day.
 
 ![Pegboard setup](https://i.imgur.com/dMUlbHk.jpeg)
 
@@ -181,7 +181,7 @@ I think the curtains soften the appearance, and I added a fun doormat that compl
 ![Curtains on the pergola](https://i.imgur.com/w5XuJwU.jpeg)
 ![Nerdy doormat](https://i.imgur.com/iWOstba.jpeg)
 
-As the weather started to get nicer I found myself wanting to be able to prop the door open, but there wasn’t a good way to do that without it being blown about by the breeze. I bought a large cane bolt like you would use to keep a side gate open and installed it on the door of the pod. I had to use my Dremel tool with a cut off wheel to remove some of the metal so that it didn’t impact the rubber gasket that runs inside the door to help with sound insulation. Also, because the door swings open over the concrete pad there was not a good surface for the cane bolt to drop into. To work around this I bought a brick and drilled a giant hole in it so that I could lower the cane bolt in that to prop the door open.
+As the weather started to get nicer I found myself wanting to be able to prop the door open, but there wasn’t a good way to do that without it being blown about by the breeze. I bought a large cane bolt like you would use to keep a side gate open and installed it on the door of the pod. I had to use my Dremel tool with a cut off wheel to remove some of the metal so that it didn’t impact the rubber gasket that runs inside the door to help with sound insulation. Also, because the door swings open over the concrete pad there was not a good surface for the cane bolt to drop into. To work around this I bought a brick and drilled a giant hole in it so that I could lower the cane bolt into that to prop the door open.
 
 ![Modified hardware with Dremel](https://i.imgur.com/WgdcuAf.jpeg)
 
