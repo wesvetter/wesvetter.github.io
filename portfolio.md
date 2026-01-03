@@ -3,6 +3,12 @@ layout: default
 title: Portfolio
 ---
 
+## Nurx - Telemedicine Platform
+
+A telemedicine platform for birth control, PrEP, and other sensitive health issues. Unfortunately most of what I worked on is proprietary, but I did win a company hackathon with a redesign of the patient app.
+
+![Nurx - Hackathon Winning Design](https://i.imgur.com/7VYsBTb.jpeg)
+
 ## Teleo - Personal Health Record
 
 A personal health record (PHR) with forms, assessments & metrics, and
